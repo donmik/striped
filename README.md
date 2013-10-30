@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 striped_by_donmik
 =================
 
