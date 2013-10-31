@@ -37,8 +37,8 @@
             </div>
 
             <nav id="site-navigation" class="main-navigation" role="navigation">
-                <h1 class="menu-toggle"><?php _e( 'Menu', 'striped_by_donmik' ); ?></h1>
-                <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'striped_by_donmik' ); ?></a>
+                <h1 class="menu-toggle"><?php _e( 'Menu', 'striped' ); ?></h1>
+                <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'striped' ); ?></a>
 
                 <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
             </nav><!-- #site-navigation -->
@@ -50,11 +50,11 @@
             <div class="site-info">
                 <p>
                     <?php do_action( 'striped_by_donmik_credits' ); ?>
-                    <a href="http://wordpress.org/" rel="generator"><?php printf( __( 'Proudly powered by %s', 'striped_by_donmik' ), 'WordPress' ); ?></a>
+                    <a href="http://wordpress.org/" rel="generator"><?php printf( __( 'Proudly powered by %s', 'striped' ), 'WordPress' ); ?></a>
                     <span class="sep"> | </span>
-                    <?php printf( __( 'Theme: %1$s by %2$s.', 'striped_by_donmik' ), 'stripedbydonmik', '<a href="http://donmik.com" rel="author">donmik</a>' ); ?>
+                    <?php printf( __( 'Theme: %1$s by %2$s.', 'striped' ), 'stripedbydonmik', '<a href="http://donmik.com" rel="author">donmik</a>' ); ?>
                     <span class="sep"> | </span>
-                    <?php printf( __('Inspired by: %1$s from %2$s.', 'striped_by_donmik'), '<a href="http://html5up.net/striped/" rel="designer">Striped</a>', '<a href="http://html5up.net/ rel="designer">HTML5 Up</a>'); ?>
+                    <?php printf( __('Inspired by: %1$s from %2$s.', 'striped'), '<a href="http://html5up.net/striped/" rel="designer">Striped</a>', '<a href="http://html5up.net/ rel="designer">HTML5 Up</a>'); ?>
                 </p>
             </div><!-- .site-info -->
         </footer><!-- #colophon -->

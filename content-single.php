@@ -24,7 +24,7 @@
 		<?php the_content(); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'striped_by_donmik' ),
+				'before' => '<div class="page-links">' . __( 'Pages:', 'striped' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -41,17 +41,17 @@
 			if ( ! striped_by_donmik_categorized_blog() ) {
 				// This blog only has 1 category so we just need to worry about tags in the meta text
 				if ( '' != $tag_list ) {
-					$meta_text = __( '<span class="tags-links">Tagged: %2$s</span><span class="bookmark-link">Bookmark the <a href="%3$s" rel="bookmark">permalink</a></span>.', 'striped_by_donmik' );
+					$meta_text = __( '<span class="tags-links">Tagged: %2$s</span><span class="bookmark-link">Bookmark the <a href="%3$s" rel="bookmark">permalink</a></span>.', 'striped' );
 				} else {
-					$meta_text = __( '<span class="bookmark-link">Bookmark the <a href="%3$s" rel="bookmark">permalink</a></span>.', 'striped_by_donmik' );
+					$meta_text = __( '<span class="bookmark-link">Bookmark the <a href="%3$s" rel="bookmark">permalink</a></span>.', 'striped' );
 				}
 
 			} else {
 				// But this blog has loads of categories so we should probably display them here
 				if ( '' != $tag_list ) {
-					$meta_text = __( '<span class="cat-links">Posted in %1$s</span><span class="tags-links">Tagged: %2$s</span><span class="bookmark-link">Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.</span>', 'striped_by_donmik' );
+					$meta_text = __( '<span class="cat-links">Posted in %1$s</span><span class="tags-links">Tagged: %2$s</span><span class="bookmark-link">Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.</span>', 'striped' );
 				} else {
-					$meta_text = __( '<span class="cat-links">Posted in %1$s</span><span class="bookmark-link">Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.</Span>', 'striped_by_donmik' );
+					$meta_text = __( '<span class="cat-links">Posted in %1$s</span><span class="bookmark-link">Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.</Span>', 'striped' );
 				}
 
 			} // end check for categories on this blog
@@ -64,6 +64,6 @@
 			);
 		?>
 
-		<?php edit_post_link( __( 'Edit', 'striped_by_donmik' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit', 'striped' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->

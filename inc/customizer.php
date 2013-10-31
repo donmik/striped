@@ -13,10 +13,10 @@
 function striped_by_donmik_customize_register( $wp_customize ) {
     // Sidebar position.
     $wp_customize->add_section( 'sidebar_position_section_name' , array(
-        'title'      => __( 'Sidebar Position', 'striped_by_donmik' ),
+        'title'      => __( 'Sidebar Position', 'striped' ),
         'priority'   => 35,
         'capability' => 'edit_theme_options',
-        'description' => __('Allows you to customize the sidebar position.', 'striped_by_donmik')
+        'description' => __('Allows you to customize the sidebar position.', 'striped')
     ) );
     $wp_customize->add_setting( 'striped_by_donmik_options[sidebar_position]',
         array(
@@ -27,7 +27,7 @@ function striped_by_donmik_customize_register( $wp_customize ) {
         ) 
     );    
     $wp_customize->add_control( 'striped_by_donmik_sidebar_position', array(
-        'label'      => __( 'Sidebar position', 'striped_by_donmik' ),
+        'label'      => __( 'Sidebar position', 'striped' ),
         'section'    => 'sidebar_position_section_name',
         'settings'   => 'striped_by_donmik_options[sidebar_position]',
         'type'       => 'select',

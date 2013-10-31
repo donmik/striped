@@ -63,7 +63,7 @@ function striped_by_donmik_wp_title( $title, $sep ) {
 
 	// Add a page number if necessary:
 	if ( $paged >= 2 || $page >= 2 )
-		$title .= " $sep " . sprintf( __( 'Page %s', 'striped_by_donmik' ), max( $paged, $page ) );
+		$title .= " $sep " . sprintf( __( 'Page %s', 'striped' ), max( $paged, $page ) );
 
 	return $title;
 }

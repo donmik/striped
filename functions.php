@@ -25,9 +25,9 @@ function striped_by_donmik_setup() {
 	 * Make theme available for translation
 	 * Translations can be filed in the /languages/ directory
 	 * If you're building a theme based on stripedbydonmik, use a find and replace
-	 * to change 'striped_by_donmik' to the name of your theme in all the template files
+	 * to change 'striped' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( 'striped_by_donmik', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'striped', get_template_directory() . '/languages' );
 
 	/**
 	 * Add default posts and comments RSS feed links to head
@@ -38,7 +38,7 @@ function striped_by_donmik_setup() {
 	 * This theme uses wp_nav_menu() in one location.
 	 */
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'striped_by_donmik' ),
+		'primary' => __( 'Primary Menu', 'striped' ),
 	) );
 
 	/**
@@ -54,7 +54,7 @@ add_action( 'after_setup_theme', 'striped_by_donmik_setup' );
  */
 function striped_by_donmik_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'striped_by_donmik' ),
+		'name'          => __( 'Sidebar', 'striped' ),
 		'id'            => 'sidebar-1',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
@@ -68,21 +68,21 @@ add_action( 'widgets_init', 'striped_by_donmik_widgets_init' );
  * Enqueue scripts and styles
  */
 function striped_by_donmik_scripts() {
-	wp_enqueue_style( 'striped_by_donmik-style', get_stylesheet_uri() );
-    wp_enqueue_style( 'striped_by_donmik-fonts', 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|Open+Sans+Condensed:300,700', array('striped_by_donmik-style'));
+	wp_enqueue_style( 'striped-style', get_stylesheet_uri() );
+    wp_enqueue_style( 'striped-fonts', 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|Open+Sans+Condensed:300,700', array('striped-style'));
 
     wp_enqueue_script('jquery');
-    wp_enqueue_script( 'striped_by_donmik-togglebar', get_template_directory_uri() . '/js/togglebar.js', array(), '20131030', true );
-	wp_enqueue_script( 'striped_by_donmik-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+    wp_enqueue_script( 'striped-togglebar', get_template_directory_uri() . '/js/togglebar.js', array(), '20131030', true );
+	wp_enqueue_script( 'striped-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
-	wp_enqueue_script( 'striped_by_donmik-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script( 'striped-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 
 	if ( is_singular() && wp_attachment_is_image() ) {
-		wp_enqueue_script( 'striped_by_donmik-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20120202' );
+		wp_enqueue_script( 'striped-keyboard-image-navigation', get_template_directory_uri() . '/js/keyboard-image-navigation.js', array( 'jquery' ), '20120202' );
 	}
 }
 add_action( 'wp_enqueue_scripts', 'striped_by_donmik_scripts' );

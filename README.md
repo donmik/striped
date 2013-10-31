@@ -1,4 +1,4 @@
-striped_by_donmik
+striped
 =================
 
 Striped By Donmik is a free Wordpress Theme.

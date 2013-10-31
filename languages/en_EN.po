@@ -13,134 +13,134 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SearchPath-0: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/"
-"wp-content/themes/striped_by_donmik\n"
+"wp-content/themes/striped\n"
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/404.php:15
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/404.php:15
 msgid "Oops! That page can&rsquo;t be found."
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/404.php:19
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/404.php:19
 msgid ""
 "It looks like nothing was found at this location. Maybe try one of the links "
 "below or a search?"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/404.php:27
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/404.php:27
 msgid "Most Used Categories"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/404.php:44
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/404.php:44
 #, php-format
 msgid "Try looking in the monthly archives. %1$s"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/archive.php:31
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/archive.php:31
 #, php-format
 msgid "Author: %s"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/archive.php:39
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/archive.php:39
 #, php-format
 msgid "Day: %s"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/archive.php:42
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/archive.php:42
 #, php-format
 msgid "Month: %s"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/archive.php:45
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/archive.php:45
 #, php-format
 msgid "Year: %s"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/archive.php:48
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/archive.php:48
 msgid "Asides"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/archive.php:51
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/archive.php:51
 msgid "Images"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/archive.php:54
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/archive.php:54
 msgid "Videos"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/archive.php:57
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/archive.php:57
 msgid "Quotes"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/archive.php:60
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/archive.php:60
 msgid "Links"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/archive.php:63
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/sidebar.php:17
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/archive.php:63
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/sidebar.php:17
 msgid "Archives"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/comments.php:29
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:79
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/comments.php:29
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:79
 msgid "No pingbacks/trackbacks"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/comments.php:44
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:74
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/comments.php:44
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:74
 msgid "No Comments"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/comments.php:52
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/comments.php:74
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/comments.php:52
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/comments.php:74
 msgid "Comment navigation"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/comments.php:53
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/comments.php:75
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/comments.php:53
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/comments.php:75
 msgid "&larr; Older Comments"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/comments.php:54
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/comments.php:76
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/comments.php:54
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/comments.php:76
 msgid "Newer Comments &rarr;"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/comments.php:86
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/comments.php:86
 msgid "Comments are closed."
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content-page.php:18
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content-single.php:27
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content.php:77
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/image.php:58
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content-page.php:18
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content-single.php:27
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content.php:77
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/image.php:58
 msgid "Pages:"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content-page.php:23
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content-single.php:67
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content.php:48
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content.php:107
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/image.php:32
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/image.php:64
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:131
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:147
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content-page.php:23
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content-single.php:67
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content.php:48
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content.php:107
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/image.php:32
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/image.php:64
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:131
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:147
 msgid "Edit"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content-single.php:44
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content-single.php:44
 #, php-format
 msgid ""
 "<span class=\"tags-links\">Tagged: %2$s</span><span class=\"bookmark-link"
 "\">Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a></span>."
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content-single.php:46
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content-single.php:46
 #, php-format
 msgid ""
 "<span class=\"bookmark-link\">Bookmark the <a href=\"%3$s\" rel=\"bookmark"
 "\">permalink</a></span>."
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content-single.php:52
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content-single.php:52
 #, php-format
 msgid ""
 "<span class=\"cat-links\">Posted in %1$s</span><span class=\"tags-links"
@@ -148,61 +148,61 @@ msgid ""
 "\"%3$s\" rel=\"bookmark\">permalink</a>.</span>"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content-single.php:54
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content-single.php:54
 #, php-format
 msgid ""
 "<span class=\"cat-links\">Posted in %1$s</span><span class=\"bookmark-link"
 "\">Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>.</Span>"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content.php:33
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content.php:92
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content.php:33
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content.php:92
 #, php-format
 msgid "Posted in %1$s"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content.php:43
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content.php:102
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content.php:43
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content.php:102
 #, php-format
 msgid "Tagged: %1$s"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/content.php:74
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/content.php:74
 msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/functions.php:41
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/functions.php:41
 msgid "Primary Menu"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/functions.php:57
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/functions.php:57
 msgid "Sidebar"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/header.php:42
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/header.php:42
 msgid "Menu"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/header.php:43
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/header.php:43
 msgid "Skip to content"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/header.php:55
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/header.php:55
 #, php-format
 msgid "Proudly powered by %s"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/header.php:57
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/header.php:57
 #, php-format
 msgid "Theme: %1$s by %2$s."
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/header.php:59
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/header.php:59
 #, php-format
 msgid "Inspired by: %1$s from %2$s."
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/image.php:22
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/image.php:22
 #, php-format
 msgid ""
 "Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
@@ -210,115 +210,115 @@ msgid ""
 "href=\"%6$s\" rel=\"gallery\">%7$s</a>"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/image.php:37
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/image.php:37
 msgid "<span class=\"meta-nav\">&larr;</span> Previous"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/image.php:38
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/image.php:38
 msgid "Next <span class=\"meta-nav\">&rarr;</span>"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/no-results.php:13
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/no-results.php:13
 msgid "Nothing Found"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/no-results.php:19
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/no-results.php:19
 #, php-format
 msgid ""
 "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/no-results.php:23
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/no-results.php:23
 msgid ""
 "Sorry, but nothing matched your search terms. Please try again with some "
 "different keywords."
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/no-results.php:28
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/no-results.php:28
 msgid ""
 "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
 "searching can help."
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/search.php:16
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/search.php:16
 #, php-format
 msgid "Search Results for: %s"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/sidebar.php:24
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/sidebar.php:24
 msgid "Meta"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/customizer.php:16
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/customizer.php:16
 msgid "Sidebar Position"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/customizer.php:19
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/customizer.php:19
 msgid "Allows you to customize the sidebar position."
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/customizer.php:30
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/customizer.php:30
 msgid "Sidebar position"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/extras.php:66
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/extras.php:66
 #, php-format
 msgid "Page %s"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:33
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:33
 msgid "Post navigation"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:50
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:50
 msgid "Previous Page"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:51
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:51
 msgid "Next Page"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:72
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:72
 msgid "One comment"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:73
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:73
 #, php-format
 msgid "% comments"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:77
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:77
 msgid "One pingback/trackback"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:78
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:78
 msgid "% pingbacks/trackbacks"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:82
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:82
 msgid "One trackback"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:83
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:83
 msgid "% trackbacks"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:84
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:84
 msgid "No trackbacks"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:87
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:87
 msgid "One pingback"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:88
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:88
 msgid "% pingbacks"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:89
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:89
 msgid "No pingbacks"
 msgstr ""
 
-#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped_by_donmik/inc/template-tags.php:151
+#: /Volumes/Almacen/proyectos/donmik/websites/wpthemes/wp-content/themes/striped/inc/template-tags.php:151
 msgid "Your comment is awaiting moderation."
 msgstr ""

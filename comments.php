@@ -26,7 +26,7 @@ if ( post_password_required() )
 	<?php if ( have_comments() ) : ?>
         <?php
             // Pingbacks / Trackbacks.
-            if (striped_by_donmik_comment_count('pings', true) != __('No pingbacks/trackbacks', 'striped_by_donmik')): 
+            if (striped_by_donmik_comment_count('pings', true) != __('No pingbacks/trackbacks', 'striped')): 
         ?>
         <h2 class="comments-title">
 			<?php printf('%s on &ldquo;%s&rdquo;', striped_by_donmik_comment_count('pings', true), '<span>'.get_the_title().'</span>'); ?>
@@ -41,7 +41,7 @@ if ( post_password_required() )
     
         <?php
             // Comments.
-            if (striped_by_donmik_comment_count('comments', true) != __('No Comments', 'striped_by_donmik')): 
+            if (striped_by_donmik_comment_count('comments', true) != __('No Comments', 'striped')): 
         ?>
 		<h2 class="comments-title">
 			<?php printf('%s on &ldquo;%s&rdquo;', striped_by_donmik_comment_count('comments', true), '<span>'.get_the_title().'</span>'); ?>
@@ -49,9 +49,9 @@ if ( post_password_required() )
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
 		<nav id="comment-nav-above" class="comment-navigation" role="navigation">
-			<h1 class="screen-reader-text"><?php _e( 'Comment navigation', 'striped_by_donmik' ); ?></h1>
-			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'striped_by_donmik' ) ); ?></div>
-			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'striped_by_donmik' ) ); ?></div>
+			<h1 class="screen-reader-text"><?php _e( 'Comment navigation', 'striped' ); ?></h1>
+			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'striped' ) ); ?></div>
+			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'striped' ) ); ?></div>
 		</nav><!-- #comment-nav-above -->
 		<?php endif; // check for comment navigation ?>
 
@@ -71,9 +71,9 @@ if ( post_password_required() )
 
 		<?php if ( get_comment_pages_count() > 1 && get_option( 'page_comments' ) ) : // are there comments to navigate through ?>
 		<nav id="comment-nav-below" class="comment-navigation" role="navigation">
-			<h1 class="screen-reader-text"><?php _e( 'Comment navigation', 'striped_by_donmik' ); ?></h1>
-			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'striped_by_donmik' ) ); ?></div>
-			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'striped_by_donmik' ) ); ?></div>
+			<h1 class="screen-reader-text"><?php _e( 'Comment navigation', 'striped' ); ?></h1>
+			<div class="nav-previous"><?php previous_comments_link( __( '&larr; Older Comments', 'striped' ) ); ?></div>
+			<div class="nav-next"><?php next_comments_link( __( 'Newer Comments &rarr;', 'striped' ) ); ?></div>
 		</nav><!-- #comment-nav-below -->
 		<?php endif; // check for comment navigation ?>
 
@@ -83,7 +83,7 @@ if ( post_password_required() )
 		// If comments are closed and there are comments, let's leave a little note, shall we?
 		if ( ! comments_open() && '0' != get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
 	?>
-		<p class="no-comments"><?php _e( 'Comments are closed.', 'striped_by_donmik' ); ?></p>
+		<p class="no-comments"><?php _e( 'Comments are closed.', 'striped' ); ?></p>
 	<?php endif; ?>
 
 	<?php comment_form(); ?>

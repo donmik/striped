@@ -30,12 +30,12 @@ function striped_by_donmik_content_nav( $nav_id ) {
 	$nav_class = ( is_single() ) ? 'post-navigation' : 'paging-navigation';
 	?>
 	<nav role="navigation" id="<?php echo esc_attr( $nav_id ); ?>" class="<?php echo $nav_class; ?>">
-		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'striped_by_donmik' ); ?></h1>
+		<h1 class="screen-reader-text"><?php _e( 'Post navigation', 'striped' ); ?></h1>
 
 	<?php if ( is_single() ) : // navigation links for single posts ?>
 
-		<?php previous_post_link( '<div class="nav-previous">%link</div>', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'striped_by_donmik' ) . '</span> %title' ); ?>
-		<?php next_post_link( '<div class="nav-next">%link</div>', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'striped_by_donmik' ) . '</span>' ); ?>
+		<?php previous_post_link( '<div class="nav-previous">%link</div>', '<span class="meta-nav">' . _x( '&larr;', 'Previous post link', 'striped' ) . '</span> %title' ); ?>
+		<?php next_post_link( '<div class="nav-next">%link</div>', '%title <span class="meta-nav">' . _x( '&rarr;', 'Next post link', 'striped' ) . '</span>' ); ?>
 
 	<?php elseif ( $wp_query->max_num_pages > 1 && ( is_home() || is_archive() || is_search() ) ) : // navigation links for home, archive, and search pages ?>
 
@@ -47,8 +47,8 @@ function striped_by_donmik_content_nav( $nav_id ) {
                 'format' => '/page/%#%', 
                 'total' => $wp_query->max_num_pages,
                 'current' => $current_page,
-                'prev_text' => __( 'Previous Page', 'striped_by_donmik' ),
-                'next_text' => __( 'Next Page', 'striped_by_donmik' ),
+                'prev_text' => __( 'Previous Page', 'striped' ),
+                'next_text' => __( 'Next Page', 'striped' ),
             );
         ?>
         <div class="pager">
@@ -69,24 +69,24 @@ if ( ! function_exists( 'striped_by_donmik_comment_count' ) ) :
 function striped_by_donmik_comment_count( $type = 'comments', $return = false ) {
     if ($type == 'comments'):
         $typeSql = 'comment_type = ""';
-        $oneText = __('One comment', 'striped_by_donmik');
-        $moreText = __('% comments', 'striped_by_donmik');
-        $noneText = __('No Comments', 'striped_by_donmik');
+        $oneText = __('One comment', 'striped');
+        $moreText = __('% comments', 'striped');
+        $noneText = __('No Comments', 'striped');
     elseif ($type == 'pings'):
         $typeSql = 'comment_type != ""';
-        $oneText = __('One pingback/trackback', 'striped_by_donmik');
-        $moreText = __('% pingbacks/trackbacks', 'striped_by_donmik');
-        $noneText = __('No pingbacks/trackbacks', 'striped_by_donmik');
+        $oneText = __('One pingback/trackback', 'striped');
+        $moreText = __('% pingbacks/trackbacks', 'striped');
+        $noneText = __('No pingbacks/trackbacks', 'striped');
     elseif($type == 'trackbacks'):
         $typeSql = 'comment_type = "trackback"';
-        $oneText = __('One trackback', 'striped_by_donmik');
-        $moreText = __('% trackbacks', 'striped_by_donmik');
-        $noneText = __('No trackbacks', 'striped_by_donmik');
+        $oneText = __('One trackback', 'striped');
+        $moreText = __('% trackbacks', 'striped');
+        $noneText = __('No trackbacks', 'striped');
     elseif($type == 'pingbacks'):
         $typeSql = 'comment_type = "pingback"';
-        $oneText = __('One pingback', 'striped_by_donmik');
-        $moreText = __('% pingbacks', 'striped_by_donmik');
-        $noneText = __('No pingbacks', 'striped_by_donmik');
+        $oneText = __('One pingback', 'striped');
+        $moreText = __('% pingbacks', 'striped');
+        $noneText = __('No pingbacks', 'striped');
     endif;
         
     global $wpdb;
@@ -128,7 +128,7 @@ function striped_by_donmik_comment( $comment, $args, $depth ) {
 
 	<li id="comment-<?php comment_ID(); ?>" <?php comment_class(); ?>>
 		<div class="comment-body">
-			<?php echo ucfirst($comment->comment_type); ?>: <?php comment_author_link(); ?> <?php edit_comment_link( __( 'Edit', 'striped_by_donmik' ), '<span class="edit-link">', '</span>' ); ?>
+			<?php echo ucfirst($comment->comment_type); ?>: <?php comment_author_link(); ?> <?php edit_comment_link( __( 'Edit', 'striped' ), '<span class="edit-link">', '</span>' ); ?>
 		</div>
 
 	<?php else : ?>
@@ -142,13 +142,13 @@ function striped_by_donmik_comment( $comment, $args, $depth ) {
 
 				<div class="comment-metadata">
                     <time datetime="<?php comment_time( 'c' ); ?>">
-                        <?php printf( _x( '%1$s <br/> %2$s', '1: date, 2: time', 'striped_by_donmik' ), get_comment_date(), get_comment_time() ); ?>
+                        <?php printf( _x( '%1$s <br/> %2$s', '1: date, 2: time', 'striped' ), get_comment_date(), get_comment_time() ); ?>
                     </time>
-					<?php edit_comment_link( __( 'Edit', 'striped_by_donmik' ), '<span class="edit-link">', '</span>' ); ?>
+					<?php edit_comment_link( __( 'Edit', 'striped' ), '<span class="edit-link">', '</span>' ); ?>
 				</div><!-- .comment-metadata -->
 
 				<?php if ( '0' == $comment->comment_approved ) : ?>
-				<p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'striped_by_donmik' ); ?></p>
+				<p class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'striped' ); ?></p>
 				<?php endif; ?>
 			</footer><!-- .comment-meta -->
 

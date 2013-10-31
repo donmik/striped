@@ -30,7 +30,7 @@
 				if ( $categories_list && striped_by_donmik_categorized_blog() ) :
 			?>
 			<span class="cat-links">
-				<?php printf( __( 'Posted in %1$s', 'striped_by_donmik' ), $categories_list ); ?>
+				<?php printf( __( 'Posted in %1$s', 'striped' ), $categories_list ); ?>
 			</span>
 			<?php endif; // End if categories ?>
 
@@ -40,12 +40,12 @@
 				if ( $tags_list ) :
 			?>
 			<span class="tags-links">
-				<?php printf( __( 'Tagged: %1$s', 'striped_by_donmik' ), $tags_list ); ?>
+				<?php printf( __( 'Tagged: %1$s', 'striped' ), $tags_list ); ?>
 			</span>
 			<?php endif; // End if $tags_list ?>
 		<?php endif; // End if 'post' == get_post_type() ?>
 
-		<?php edit_post_link( __( 'Edit', 'striped_by_donmik' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit', 'striped' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
     
     <?php /** OTHERS POST FORMATS **/ else: ?>
@@ -71,10 +71,10 @@
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
-		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'striped_by_donmik' ) ); ?>
+		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'striped' ) ); ?>
 		<?php
 			wp_link_pages( array(
-				'before' => '<div class="page-links">' . __( 'Pages:', 'striped_by_donmik' ),
+				'before' => '<div class="page-links">' . __( 'Pages:', 'striped' ),
 				'after'  => '</div>',
 			) );
 		?>
@@ -89,7 +89,7 @@
 				if ( $categories_list && striped_by_donmik_categorized_blog() ) :
 			?>
 			<span class="cat-links">
-				<?php printf( __( 'Posted in %1$s', 'striped_by_donmik' ), $categories_list ); ?>
+				<?php printf( __( 'Posted in %1$s', 'striped' ), $categories_list ); ?>
 			</span>
 			<?php endif; // End if categories ?>
 
@@ -99,12 +99,12 @@
 				if ( $tags_list ) :
 			?>
 			<span class="tags-links">
-				<?php printf( __( 'Tagged: %1$s', 'striped_by_donmik' ), $tags_list ); ?>
+				<?php printf( __( 'Tagged: %1$s', 'striped' ), $tags_list ); ?>
 			</span>
 			<?php endif; // End if $tags_list ?>
 		<?php endif; // End if 'post' == get_post_type() ?>
 
-		<?php edit_post_link( __( 'Edit', 'striped_by_donmik' ), '<span class="edit-link">', '</span>' ); ?>
+		<?php edit_post_link( __( 'Edit', 'striped' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
     <?php endif; ?>
 </article><!-- #post-## -->
