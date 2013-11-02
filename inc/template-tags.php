@@ -44,7 +44,7 @@ function striped_by_donmik_content_nav( $nav_id ) {
 
             $args = array(
                 'base' => get_pagenum_link(1) . '%_%',  
-                'format' => '/page/%#%', 
+                'format' => '?paged=%#%', 
                 'total' => $wp_query->max_num_pages,
                 'current' => $current_page,
                 'prev_text' => __( 'Previous Page', 'striped' ),
