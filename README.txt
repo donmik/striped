@@ -9,7 +9,7 @@ Thank you for Using Striped Theme.
 	
 ## Copyrights for Resources used in this theme.
 	i) Striped Theme use images and css from Striped by HTML5 Up. Those images and css is under Creative Commons License http://creativecommons.org/licenses/by/3.0/
-	ii) The "Open Sans Condensed" font is under Apche v2 License. 
+	ii) The "Open Sans Condensed" font is under Apache v2 License. 
         http://www.google.com/fonts/specimen/Open+Sans+Condensed
         http://www.apache.org/licenses/LICENSE-2.0.html 
 	iii) The "Source Sans Pro" font is under SIL Open Font License, 1.1. 
