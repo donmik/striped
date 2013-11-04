@@ -15,7 +15,7 @@ Thank you for Using Striped Theme.
 	iii) The "Source Sans Pro" font is under SIL Open Font License, 1.1. 
         http://www.google.com/fonts/specimen/Source+Sans+Pro
         http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
-	iv) togglebar.jshas been created by me and under GPL v2.
+	iv) togglebar.js has been created by me and under GPL v2.
 	vii) skip-link-focus-fix.js, navigation.js, customizer.js & keyboard-image-navigation.js are part of the Underscores Framework used by the theme, and hence under GPL v2.
 	
     Everything else used in this theme has been created by me, especially for Striped theme and is distributed under GPL license.
