@@ -16,7 +16,7 @@
 <?php wp_head(); ?>
 </head>
 
-<body <?php body_class(striped_by_donmik_options('sidebar_position').'-sidebar'); ?>>
+<body <?php body_class(striped_by_donmik_options('sidebar_position', 'left').'-sidebar'); ?>>
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
     
