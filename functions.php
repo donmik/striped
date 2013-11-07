@@ -69,7 +69,7 @@ add_action( 'widgets_init', 'striped_by_donmik_widgets_init' );
  */
 function striped_by_donmik_scripts() {
 	wp_enqueue_style( 'striped-style', get_stylesheet_uri() );
-    wp_enqueue_style( 'striped-fonts', 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|Open+Sans+Condensed:300,700', array('striped-style'));
+    wp_enqueue_style( 'striped-fonts', '//fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic,700|Open+Sans+Condensed:300,700', array('striped-style'));
 
     wp_enqueue_script('jquery');
     wp_enqueue_script( 'striped-togglebar', get_template_directory_uri() . '/js/togglebar.js', array(), '20131030', true );

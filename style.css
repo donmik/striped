@@ -4,9 +4,9 @@ Theme URI: https://github.com/donmik/striped
 Author: donmik
 Author URI: http://donmik.com
 Description: Striped by donmik is inspired by Html5 Up Striped. stripedbydonmik is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
-Version: 1.0.4
-License: GNU General Public License v2.0
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Version: 1.0.5
+License: GNU General Public License v3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: striped
 Domain Path: /languages/
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=donmik%40gmail%2ecom&lc=GB&item_name=donmik%20%2d%20Plugin%20Buddypress%20Xprofile%20Custom%20Fields%20Type&no_note=0&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest
@@ -399,30 +399,31 @@ a:active {
 /* =Menu
 ----------------------------------------------- */
 
-.main-navigation {
+#sidebar .main-navigation {
 	clear: both;
 	display: block;
 }
-.main-navigation ul {
+#sidebar .main-navigation ul {
 	list-style: none;
 	margin: 0;
 }
-.main-navigation li {
+#sidebar .main-navigation li {
     position: relative;
     
     border-top: solid 1px rgba(0,0,0,0.25);
     box-shadow: inset 0px 1px 0px 0px rgba(255,255,255,0.075);
-    padding: 0.5em 0 0.5em 0;
+    padding: 0;
+    overflow: hidden;
 }
-.main-navigation li:first-child {
+#sidebar .main-navigation li:first-child {
     border: 0;
     box-shadow: none;
     padding-top: 0;
 }
-.main-navigation li:last-child {
+#sidebar .main-navigation li:last-child {
     padding-bottom: 0;
 }
-.main-navigation li a {
+#sidebar .main-navigation li a {
     display: block;
     padding: 0.4em 1em 0.4em 1em;
     text-decoration: none;
@@ -434,37 +435,31 @@ a:active {
     -ms-transition: background-color .25s ease-in-out, color .25s ease-in-out;
     transition: background-color .25s ease-in-out, color .25s ease-in-out;
 }
-.main-navigation ul ul {
+#sidebar .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
 	display: none;
-	float: left;
-	left: 0;
-	position: absolute;
-	top: 1.5em;
-	z-index: 99999;
+	position: relative;
+    overflow: hidden;
 }
-.main-navigation ul ul ul {
-	left: 100%;
-	top: 0;
+#sidebar .main-navigation ul ul a {
+	width: auto;
 }
-.main-navigation ul ul a {
-	width: 200px;
+#sidebar .main-navigation ul ul li {
 }
-.main-navigation ul ul li {
-}
-.main-navigation li:hover > a {
+#sidebar .main-navigation li:hover > a {
     background-color: rgba(200,225,255,0.1);
     color: #fff;
 }
-.main-navigation ul ul :hover > a {
+#sidebar .main-navigation ul ul :hover > a {
 }
-.main-navigation ul ul a:hover {
+#sidebar .main-navigation ul ul a:hover {
 }
-.main-navigation ul li:hover > ul {
+#sidebar .main-navigation ul li:hover > ul {
 	display: block;
+    margin: 0.1em 0 0.1em 0.8em;
 }
-.main-navigation li.current_page_item a,
-.main-navigation li.current-menu-item a {
+#sidebar .main-navigation li.current_page_item a,
+#sidebar .main-navigation li.current-menu-item a {
     background-color: #272E39 !important;
     background-color: rgba(0,0,0,0.15) !important;
     box-shadow: 0 0 0 1px rgba(255,255,255,0.05), inset 0 0 0.25em 0 rgba(0,0,0,0.25);
@@ -480,11 +475,11 @@ a:active {
 
 @media screen and (max-width: 600px) {
 	.menu-toggle,
-	.main-navigation.toggled .nav-menu {
+	#sidebar .main-navigation.toggled .nav-menu {
 		display: block;
 	}
 
-	.main-navigation ul {
+	#sidebar .main-navigation ul {
 		display: none;
 	}
 }

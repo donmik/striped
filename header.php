@@ -52,9 +52,7 @@
                     <?php do_action( 'striped_by_donmik_credits' ); ?>
                     <a href="http://wordpress.org/" rel="generator"><?php printf( __( 'Proudly powered by %s', 'striped' ), 'WordPress' ); ?></a>
                     <span class="sep"> | </span>
-                    <?php printf( __( 'Theme: %1$s by %2$s.', 'striped' ), 'stripedbydonmik', '<a href="http://donmik.com" rel="author">donmik</a>' ); ?>
-                    <span class="sep"> | </span>
-                    <?php printf( __('Inspired by: %1$s from %2$s.', 'striped'), '<a href="http://html5up.net/striped/" rel="designer">Striped</a>', '<a href="http://html5up.net/ rel="designer">HTML5 Up</a>'); ?>
+                    <?php printf( __( 'Theme: %1$s by %2$s.', 'striped' ), 'striped', '<a href="http://donmik.com" rel="author">donmik</a>' ); ?>
                 </p>
             </div><!-- .site-info -->
         </footer><!-- #colophon -->
