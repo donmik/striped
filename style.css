@@ -5,8 +5,6 @@ Author: donmik
 Author URI: http://donmik.com
 Description: Striped by donmik is inspired by Html5 Up Striped. stripedbydonmik is based on Underscores http://underscores.me/, (C) 2012-2013 Automattic, Inc.
 Version: 1.0.5
-License: GNU General Public License v3.0
-License URI: http://www.gnu.org/licenses/gpl-3.0.html
 Text Domain: striped
 Domain Path: /languages/
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=donmik%40gmail%2ecom&lc=GB&item_name=donmik%20%2d%20Plugin%20Buddypress%20Xprofile%20Custom%20Fields%20Type&no_note=0&currency_code=EUR&bn=PP%2dDonationsBF%3abtn_donate_SM%2egif%3aNonHostedGuest
@@ -16,6 +14,9 @@ Resetting and rebuilding styles have been helped along thanks to the fine work o
 Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
 along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 and Blueprint http://www.blueprintcss.org/
+
+This theme is not in wordpress repository because the author of the original design http://html5up.net/striped/ "don't want to mix
+GPL with Creative Commons" so if you want to use it, remember that it's released under Creative Commons Attribution License 3.0.
 */
 
 
