@@ -3,12 +3,12 @@ striped
 
 Thank you for Using Striped Theme.
 
-******************************************************************************************
-This theme is not in wordpress repository because the author of the original design 
-http://html5up.net/striped/ "don't want to mix
-GPL with Creative Commons" so if you want to use it, remember that it's released under 
-Creative Commons Attribution License 3.0.
-******************************************************************************************
+*********************************************************************************
+This theme is not in wordpress repository because the author of the original 
+design http://html5up.net/striped/ "don't want to mix
+GPL with Creative Commons" so if you want to use it, remember that it's released 
+under Creative Commons Attribution License 3.0.
+*********************************************************************************
 
 	i) Striped Theme is Based on the Underscores Framework http://underscores.me/, (C) 2012-2013 Automattic, Inc. 
 	ii) Striped has been created by http://donmik.com. 
